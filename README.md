@@ -66,6 +66,7 @@
     
 7. Every page, there is a home and back button. User can press home button to go back to the first page, back button to the previous page.
 8. This program is built and mostly run on VScode. However under normal circumstances, other IDLE should be alble to run this as well. There isn't any third party API being used, so there is no extra installation or configuration.
+9. For the dynamic programming part. 0/1 Knapsack matrix is generated on a csv file call matrix.csv. Open that file to view the matrix.
 
 ## Sample Outputs
 
