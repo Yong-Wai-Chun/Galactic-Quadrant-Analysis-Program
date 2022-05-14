@@ -14,6 +14,7 @@ public class Assets {
     private int x,y,z; // planet coordinates
     private int weight,profit; // planet weight and profit
 
+    private ArrayList<Planet> nPlanets  = new ArrayList<Planet>();
     private ArrayList<Planet> planets  = new ArrayList<Planet>(); // arraylist of planets
     private ArrayList<String> sortedPlanets  = new ArrayList<>(); // sorted planet
     private ArrayList<Edge> edges; // list of edges
@@ -47,7 +48,7 @@ public class Assets {
             profit = getRandomNumber(10, 100);
 
             planets.add(new Planet(p_names[i], x, y, z, weight, profit));
-            
+            nPlanets.add(new Planet(p_names[i], x, y, z, weight, profit));
         }
         switch(opt) {
             // calculate distance depending on which quadrant user chose
@@ -416,19 +417,19 @@ public class Assets {
             sb.setLength(0);
         }
 
-        sortDesc(planets, 0, planets.size()-1);
-        for (int i=0; i<planets.size(); i++) {
-            sb.append(planets.get(i).getP_name());
+        sortDesc(nPlanets, 0, nPlanets.size()-1);
+        for (int i=0; i<nPlanets.size(); i++) {
+            sb.append(nPlanets.get(i).getP_name());
             sb.append(" (");
-            sb.append(planets.get(i).getCoorX());
+            sb.append(nPlanets.get(i).getCoorX());
             sb.append(",");
-            sb.append(planets.get(i).getCoorY());
+            sb.append(nPlanets.get(i).getCoorY());
             sb.append(",");
-            sb.append(planets.get(i).getCoorZ());
+            sb.append(nPlanets.get(i).getCoorZ());
             sb.append(") Weight = ");
-            sb.append(planets.get(i).getWeight());
+            sb.append(nPlanets.get(i).getWeight());
             sb.append(" Profit = ");
-            sb.append(planets.get(i).getProfit());
+            sb.append(nPlanets.get(i).getProfit());
 
             sortedPlanets.add(sb.toString());
             sb.setLength(0);
