@@ -71,4 +71,20 @@
   In this project, there are 3 sub-programs and some algorithms worth mentioning and discussing. First and foremost, for the quadrant map's detail program, adjacency list and adjacency matrix are displayed. Adjacency list is a form of visualization on a graph / map. For example, if Planet A is connected to Planet B and Planet C, it will look like this, Planet A: Planet B(distance) -> Planet C(distance). As for adjacency matrix, it is similar to adjacency list, it is only another form of visualization. The overall concepts are the same. Next in the same program, the display of edges and planets are sorted using merge sort algorithm. Merge sort is a sorting algorithm based on the divide-and-conquer method. It is a stable and not-in-place algorithm. Stable algorithm preserves the order of records with equal keys after processing. Not-in-place algorithm requires an additional temporary data structure to store the temporary result, then use the temporary result to obtain the final result and store the final result back to the original data structure.
   
   In the next program which is planet's materials mining. In this program, it will choose the optimum planets to visit and collect the materials and minerals. The maximum capacity/weight is 80 tons. Assume that if the ship cannot return to the home planet in the midst visiting other planets. This program utilizes dynamic programming via 0/1 knapsack algorithm. In the end, a matrix is created onto a csv file called matrix.csv and total weight and total and profit is calculated.
+  
+  Last but not least, the next program is shortest route distance. In this program, shortest path distance of every planet from Planet A is displayed. The path is calculated using Dijkstra's Algorithm. Dijkstra algorithm computes the distances of all the vertices from given source node. It is a greedy based method. It adds vertices by increasing distance. However, it doesn't work on negative edges.
+</p>
+
+## Summary and Finding
+
+<p align="justify">
+  Through the development of this project, I get to learn a lot algorithms and their implementation. By implementing Java Swing, I get to express my creativity on the front end design. However, I did not neglect the back end process as there are a lot of algorithms and heavy programming needed to build this program. With these algorithms, I manage to find a way for graph visualization and traversal. It is always my passion in maps and maze's problems and I love problems related to vectors and maps traversal. So with this project, I get to broaden my horizon on map's traversal visualization. Lastly, thank you very much for spending time on reviewing and testing this project. Eventhough it is not perfect but most imortantly I learned alot through out this process.
+</p>
+
+## Credit and Reference
+
+geeksForgeeks - https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+
+<p align="center">
+  <img width="40%" src="https://github.com/Yong-Wai-Chun/Python-Maze-Library-Mod/blob/main/components/giphy.gif?raw=true">
 </p>
