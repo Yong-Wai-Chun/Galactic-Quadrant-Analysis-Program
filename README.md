@@ -101,7 +101,7 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github.com/Yong-Wai-Chun/Galactic-Quadrant-Analysis-Program/blob/main/components/o7.png?raw=true">
+  <img width="100%" src="https://github.com/Yong-Wai-Chun/Galactic-Quadrant-Analysis-Program/blob/main/components/o8.png?raw=true">
   <br> Figure 12: Shortest PathPage
 </p>
 
