@@ -91,11 +91,6 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github.com/Yong-Wai-Chun/Galactic-Quadrant-Analysis-Program/blob/main/components/o4.png?raw=true">
-  <br> Figure 9: Menu Page
-</p>
-
-<p align="center">
   <img width="100%" src="https://github.com/Yong-Wai-Chun/Galactic-Quadrant-Analysis-Program/blob/main/components/o5.png?raw=true">
   <br> Figure 10: Display Sort Page
 </p>
